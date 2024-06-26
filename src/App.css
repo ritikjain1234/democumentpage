@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes colorChange {
+  0% { background-color: transparent; }
+  50% { background-color: aliceblue; }
+  100% { background-color: transparent; }
+}
+
+.element {
+  animation: colorChange 5s;
+}

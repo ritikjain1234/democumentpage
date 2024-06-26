@@ -1,0 +1,77 @@
+{
+    "data": [
+      {
+        "title": "Lorem Ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero ac purus tincidunt, in rutrum tortor tincidunt. Vestibulum id tellus ac urna lacinia egestas. Aliquam quis ex eu leo dictum posuere vel nec enim.",
+        "type":"Character encoding",
+        "example":"Although Crockford originally asserted that JSON is a strict subset of JavaScript and ECMAScript,[15] his specification actually allows valid JSON documents that are not valid JavaScript; JSON allows the Unicode line terminators U+2028 LINE SEPARATOR and U+2029 PARAGRAPH SEPARATOR to appear unescaped in quoted strings, while ECMAScript 2018 and older do not.[16][17] This is a consequence of JSON disallowing only control characters. For maximum portability, these characters should be backslash-escaped."
+      },
+      {
+        "title": "Dolor Sit Amet",
+        "description": "Dolor sit amet, consectetur adipiscing elit. Integer euismod justo at enim lobortis, a fermentum enim volutpat. Sed dapibus sapien at massa fermentum, ac aliquam odio malesuada.",      
+        "type":"Data types",
+        "example":"Number: a signed decimal number that may contain a fractional part and may use exponential E notation but cannot include non-numbers such as NaN. The format makes no distinction between integer and floating-point. JavaScript uses IEEE-754 double-precision floating-point format for all its numeric values (later also supporting BigInt[19]), but other languages implementing JSON may encode numbers differently."
+      },
+      {
+        "title": "Suspendisse Potenti",
+        "description": "Suspendisse potenti. Fusce nec justo id velit ultrices convallis. Cras malesuada, sapien id venenatis fermentum, ipsum sapien ullamcorper turpis, sed eleifend arcu urna non eros.",
+        "type":"Semantics",
+        "example":"While JSON provides a syntactic framework for data interchange, unambiguous data interchange also requires agreement between producer and consumer on the semantics of specific use of the JSON syntax.[25] One example of where such an agreement is necessary is the serialization of data types that are not part of the JSON standard, for example, dates and regular expressions."
+      },
+      {
+        "title": "Vestibulum Ante Ipsum",
+        "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed fermentum augue sed orci venenatis, et consectetur nunc commodo. Donec pulvinar justo sit amet velit iaculis, vitae laoreet nulla fringilla.",
+       "type":"Metadata and schema",
+        "example":"JSON Schema specifies a JSON-based format to define the structure of JSON data for validation, documentation, and interaction control. It provides a contract for the JSON data required by a given application and how that data can be modified.[28] JSON Schema is based on the concepts from XML Schema (XSD) but is JSON-based. As in XSD, the same serialization/deserialization tools can be used both for the schema and data, and it is self-describing. It is specified in an Internet Draft at the IETF, with the latest version as of 2024 being 'Draft 2020-12'.[29] There are several validators available for different programming languages,[30] each with varying levels of conformance. The standard filename extension is .json"
+      },
+      {
+        "title": "Mauris Vel Sapien",
+        "description": "Mauris vel sapien sed nulla facilisis ultrices. In ullamcorper nisi eu dapibus interdum. Fusce sit amet efficitur libero. Nullam vestibulum, augue a consectetur varius, lorem tortor dignissim turpis, vel fringilla magna lacus eget magna.",
+         "type":"Uses",
+        "example":"JSON-RPC is a remote procedure call (RPC) protocol built on JSON, as a replacement for XML-RPC or SOAP. It is a simple protocol that defines only a handful of data types and commands. JSON-RPC lets a system send notifications (information to the server that does not require a response) and multiple calls to the server that can be answered out of order."
+      },
+      {
+        "title": "Aenean Consectetur",
+        "description": "Aenean consectetur nulla non sem bibendum, nec vehicula dolor venenatis. Nullam posuere urna nec tempor laoreet. Integer semper purus a eros scelerisque, at fermentum nisl feugiat.",
+         "type":"Safety",
+        "example":"JSON being a subset of JavaScript can lead to the misconception that it is safe to pass JSON texts to the JavaScript eval() function. This is not safe, due to certain valid JSON texts, specifically those containing U+2028 LINE SEPARATOR or U+2029 PARAGRAPH SEPARATOR, not being valid JavaScript code until JavaScript specifications were updated in 2019, and so older engines may not support it"
+      },
+      {
+        "title": "Fusce Eget Diam",
+        "description": "Fusce eget diam vehicula, bibendum arcu in, aliquet purus. Ut vestibulum diam sed felis vehicula lobortis. Proin lobortis augue in eros pretium, a accumsan elit posuere.",
+         "type":"Alternatives",
+        "example":"JSON is promoted as a low-overhead alternative to XML as both of these formats have widespread support for creation, reading, and decoding in the real-world situations where they are commonly used.[39] Apart from XML, examples could include CSV and supersets of JSON. Google Protocol Buffers can fill this role, although it is not a data interchange language. CBOR has a superset of the JSON data types, but it is not text-based."
+      },
+      {
+        "title": "Pellentesque Habitasse",
+        "description": "Pellentesque habitasse morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis commodo turpis ac quam egestas, a sollicitudin lorem suscipit. Nunc sit amet odio sit amet tortor lobortis rhoncus.",
+        "type":"XML",
+        "example":"XML has been used to describe structured data and to serialize objects. Various XML-based protocols exist to represent the same kind of data structures as JSON for the same kind of data interchange purposes. Data can be encoded in XML in several ways. The most expansive form using tag pairs results in a much larger (in character count) representation than JSON, but if data is stored in attributes and 'short tag' form where the closing tag is replaced with />, the representation is often about the same size as JSON or just a little larger. However, an XML attribute can only have a single value and each attribute can appear at most once on each element."
+      },
+      {
+        "title": "Donec Ornare Justo",
+        "description": "Donec ornare justo vel aliquet fringilla. Nulla convallis ipsum a metus malesuada, eget tempor risus consectetur. Vivamus lacinia efficitur mauris nec fermentum.",
+         "type":"Supersets",
+        "example":"Support for comments and other features have been deemed useful, which has led to several nonstandard JSON supersets being created. Among them are HJSON,[42] HOCON, and JSON5 (which despite its name, is not the fifth version of JSON).[43][44]"
+      },
+      {
+        "title": "Integer Feugiat",
+        "description": "Integer feugiat erat nec lacus suscipit, id tempus enim fermentum. Phasellus ultricies tortor at metus pellentesque, at cursus tortor fringilla. Nam eu aliquet eros.",
+         "type":"",
+        "example":""
+      },
+      {
+        "title": "Etiam Mollis Efficitur",
+        "description": "Etiam mollis efficitur sem, sed commodo ipsum fermentum vel. Praesent mattis justo ac dolor blandit, vel molestie orci vehicula.",
+         "type":"YAML",
+        "example":"YAML version 1.2 is a superset of JSON; prior versions were not strictly compatible. For example, escaping a slash / with a backslash  is valid in JSON, but was not valid in YAML.[45] YAML supports comments, while JSON does not."
+      },
+      {
+        "title": "Quisque Eleifend",
+        "description": "Quisque eleifend nisi ut purus eleifend dignissim. Mauris nec tortor et quam ullamcorper cursus at sit amet mauris.",
+         "type":"CSON",
+        "example":"CSON ('CoffeeScript Object Notation') uses significant indentation, unquoted keys, and assumes an outer object declaration. It was used for configuring GitHub's Atom text editor.[46][47][48]"
+      }
+    ]
+  }
+  
